@@ -1,0 +1,153 @@
+.fullArea {
+  margin: 35px 0;
+  .container {
+    .heroSection {
+      display: grid;
+      grid-template-columns: 50% 50%;
+
+      .leftHero {
+        text-align: end;
+
+        .imageSection {
+        }
+      }
+
+      .rightHero {
+        width: 360px;
+        margin-top: 16px;
+
+        .rightheroTop {
+          border: 1px solid #dbdbdb;
+        }
+
+        .logFromSection {
+          text-align: center;
+          img {
+            width: 174px;
+            margin: 40px 0px;
+            
+          }
+          form {
+            display: flex;
+            flex-direction: column;
+            
+            input {
+                width: 280px;
+                margin: 3px auto;
+                color: #000;
+                padding: 10px;
+                background-color: #fafafa;
+                border: 1px solid #dbdbdb;
+                font-size: 12px;
+            }
+            .LoginButton {
+                width: 280px;
+                margin: 7px auto;
+                padding: 7px;
+                background-color: #4cb5f9;
+                color: white;
+                font-weight: 600;
+                font-size: 12px;
+                border: none;
+                border-radius: 10px;
+
+            }
+          }
+        }
+        .orSection {
+            margin: 8px 0;
+          hr {
+            display: inline-block;
+            
+            width: 110px;
+            color: rgb(115, 115, 115);
+            margin: 4px 0;
+            
+          }
+          h4 {
+            display: inline-block;
+            margin: 0 18px;
+            font-size: 13px;
+            font-weight: 400;
+            color: rgb(115, 115, 115);
+            
+          }
+        }
+
+        .fbLOG {
+          display: flex;
+          justify-content: center;
+          gap: 5px;
+          margin: 30px 0 0 0 ;
+
+
+          .fb-icon{
+            color: #385185;
+            font-size: 20px;
+          }
+          .logWithFB{
+            h3{
+              color: #385185;
+              font-size: 14px;
+              font-weight: 500;
+
+            }
+          }
+        }
+        .forgotPass {
+          h5 {
+            text-align: center;
+            font-weight: 300;
+            margin: 10px 0 19px 0;
+          }
+        }
+.rightheroBottom{
+  .signUpSection {
+    border: 1px solid #dbdbdb;
+    margin-top: 10px;
+    text-align: center;
+    padding: 15px
+
+  
+  }
+  span{
+    font-size: 13px;
+    font-weight: 400;
+  }
+  a{
+    color: rgb(0, 149, 246);
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .GetApp {
+    text-align: center;
+    span {
+      margin: 17px 0;
+      font-size: 14px;
+      font-weight: 400;
+      
+    }
+  }
+  .AppDownImg {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+    .leftIm {
+      img {
+        width: 140px;
+      }
+    }
+    .RightImg {
+      img {
+        width: 110px;
+      }
+    }
+  }
+}
+      
+      }
+    }
+  }
+}
