@@ -21,7 +21,7 @@ const AccountLogin = () => {
 
                 <div className="rightheroTop">
                 <div className="logFromSection">
-                <img src="Screenshot_1.png" alt="" />
+                <img src="https://i.ibb.co/ng7bSXh/Screenshot-1.png" alt="" />
 
                 <form action="">
                   <input
