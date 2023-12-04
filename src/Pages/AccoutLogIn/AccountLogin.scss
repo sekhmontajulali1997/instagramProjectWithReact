@@ -1,6 +1,8 @@
 .fullArea {
   margin: 35px 0;
   .container {
+    max-width: 1000px;
+    margin: 0 auto;
     .heroSection {
       display: grid;
       grid-template-columns: 50% 50%;
